@@ -33,7 +33,7 @@ const CommonInputComponent = ({ field,sx }) => {
     register,
     formState: { errors },
     reset,
-    setValue,
+    setValue, 
     watch,
   } = useFormContext();
 
